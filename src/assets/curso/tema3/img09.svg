@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="211" viewBox="0 0 275 211">
+  <text id="_---------_------------_------_nombre_fecha_edad_---------_------------_------_Fulano_1974-04-12_28_Mengano_1978-06-15_30_Pegano_1993-02-10_43_Perillo_2020-02-02_10_Tulano_1970-12-31_55_" data-name="+---------+------------+------+
+| nombre  | fecha      | edad |
++---------+------------+------+
+| Fulano  | 1974-04-12 |   28 |
+| Mengano | 1978-06-15 |   30 |
+| Pegano  | 1993-02-10 |   43 |
+| Perillo | 2020-02-02 |   10 |
+| Tulano  | 1970-12-31 |   55 |
+" fill="#f4a338" font-size="16" font-family="Consolas"><tspan x="0" y="15">+---------+------------+------+</tspan><tspan x="0" y="39" xml:space="preserve">| nombre  | fecha      | edad |</tspan><tspan x="0" y="63">+---------+------------+------+</tspan><tspan x="0" y="87" xml:space="preserve">| Fulano  | 1974-04-12 |   28 |</tspan><tspan x="0" y="111" xml:space="preserve">| Mengano | 1978-06-15 |   30 |</tspan><tspan x="0" y="135" xml:space="preserve">| Pegano  | 1993-02-10 |   43 |</tspan><tspan x="0" y="159" xml:space="preserve">| Perillo | 2020-02-02 |   10 |</tspan><tspan x="0" y="183" xml:space="preserve">| Tulano  | 1970-12-31 |   55 |</tspan><tspan x="0" y="207">+---------+------------+------+</tspan></text>
+</svg>

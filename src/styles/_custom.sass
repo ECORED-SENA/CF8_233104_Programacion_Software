@@ -1,19 +1,231 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.cajon.color-acento-botones
+  background-color: #FFFAD8
 
+.text-AB
+  color: $color-acento-botones
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.text-AC
+  color: $color-acento-contenido
 
-  100%
-    transform: translateY(0px)
+.BGNumber01
+  background-image: url("../assets/curso/temas/img01.png")
+
+.BGNumber02
+  background-image: url("../assets/curso/temas/img02.png")
+
+.BGNumber03
+  background-image: url("../assets/curso/temas/img03.png")
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGNumber01, .BGNumber02, .BGNumber03
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGM02
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG01
+  background-color: #12263F
+
+.BG02, .BGR02, .BGM02, .BGR02A, .BGR02B, .BGR02C, .BGR02D
+  background-color: #F6F6F6
+
+.BGR03A
+  background-color: #FBFBFB
+
+.BG04, .tabs-a__tab
+  background-color: #E8E8E8
+
+.BG05
+  background-color: #fff
+
+.BGR06
+  background: linear-gradient(to right, #2C4A9B, #5472C5)
+
+.BGR07
+  background: linear-gradient(to bottom, #DEDEDE, $white, #DEDEDE)
+
+.BG08
+  background-color: #F5F5F5
+
+.BG09
+  background-color: $color-primario
+
+.BGR10, .BGR10S
+  background-color: $white
+
+.BG11
+  background-color: #FFCA28
+
+.BG12
+  background-color: #5573C6
+
+.BG13
+  background-color: #4ADBD1
+
+.BGIMG01, .BGR02, .BGR02A, .BGR02B, .BGR02C, .BGR02D, .BGIMG02, .BGR03A, .BGIMG03, .BGR06, .BGR07, .BGR10S
+  border-radius: 12px
+
+.BGR02A, .BGR02C
+  border-right: 5px solid #4ADBD1
+
+.BGR02B, .BGR02D
+  border-right: 5px solid #F4A338
+
+.BGR03A
+  border: 5px solid #E8E8E8
+
+.BGR10
+  border: 3px solid #12263F
+
+.BGR10S
+  box-shadow: 2px 2px 10px #707070
+
+.slyder-a__bullets__item--active
+  background-color: #EEAC3A !important
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #5573C6
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+  
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-image: url("../assets/componentes/white-arrow.svg")
+
+.slyder-a__btn--sigt
+  transform: rotate(0deg) !important
+
+.slyder-a__btn--atrs
+  transform: rotate(180deg) !important
+ 
+.BGR02C, .BGR02D
+  height: 203px
+  @media (max-width: $bp-max-xl)
+    height: 227px
+  @media (max-width: $bp-max-lg)
+    height: 296px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg01
+  height: 480px
+  @media (max-width: $bp-max-xl)
+    height: 427px
+  @media (max-width: $bp-max-lg)
+    height: 423px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg02
+  height: 440px
+  @media (max-width: $bp-max-xl)
+    height: 482px
+  @media (max-width: $bp-max-lg)
+    height: 447px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg03
+  height: 314px
+  @media (max-width: $bp-max-xl)
+    height: 311px
+  @media (max-width: $bp-max-lg)
+    height: 333px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg04
+  height: 179px
+  @media (max-width: $bp-max-lg)
+    height: 227px
+  @media (max-width: $bp-max-md)
+    height: initial
+  
+.hg05
+  height: 672px
+  @media (max-width: $bp-max-md)
+    height: initial
+
+  
+.bloque-40 .bloque-texto-g__img
+  width: 40%
+  @media (max-width: $bp-max-md)
+    width: initial
+  
+.bloque-40 .bloque-texto-g__texto
+  width: 70%
+  @media (max-width: $bp-max-md)
+    width: initial
+  
+.bloque-inv .bloque-texto-g__img
+  left: 50%
+  @media (max-width: $bp-max-md)
+    left: initial
+  
+.bloque-inv .bloque-texto-g__texto
+  left: -40%
+  @media (max-width: $bp-max-md)
+    width: initial
+  
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #EFD198
+
+.linea-tiempo-d .tarjeta
+  background-color: #D9D9D9
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #F6F6F6
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
+
+.img01
+  position: relative
+  top: -80px
+  @media (max-width: $bp-max-md)
+    top: initial
+  
+.anexo *
+  color: $black
+
+.slyder-a__bullets__item--active, .acordion__accion__btn--b
+  background-color: #EEAC3A !important
+
+.slyder-a__bullets__item
+  background-color:#AFAFAF
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #5573C6
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
