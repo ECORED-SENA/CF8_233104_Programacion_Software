@@ -18,7 +18,7 @@
           .col
             p.mb-0 Por esto, crear una base de datos es un trabajo muy sencillo. Claro que, a la hora de crearla, la base de datos estará desocupada, es decir, no almacenará ninguna tabla.
         .cajon.color-acento-botones.p-4(data-aos="fade-left")
-          p #[b Nota]: Es fundamental que mientras se estudia se ejecuten las sentencias propuestas aquí de esa manera se consolidarán los conocimientos de cada tema tratado.
+          p #[b Nota]: es fundamental que mientras se estudia se ejecuten las sentencias propuestas aquí de esa manera se consolidarán los conocimientos de cada tema tratado.
           p Se debe tomar el tiempo necesario para escribir en la consola cada una de las sentencias, es un ejercicio fundamental para asimilar el conocimiento que se está adquiriendo.
           p.mb-0 De la misma forma se deben revisar los resultados que le da la ejecución, en caso de algún error en la sintaxis, la respuesta dará una idea de qué puede estar fallando. 
 
@@ -412,6 +412,7 @@
                 .h4.ms-lg-4.ms-5 ON UPDATE &lt;opcion&gt;
                 p.mb-0.ms-lg-4.ms-5 Es semejante, define las acciones que deben de realizar en la tabla actual, cuando se modifique o actualice la columna de una fila en la tabla referenciada.
 
+    p Hay cinco opciones distintas. A continuación, lo que hace cada una de ellas: 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones

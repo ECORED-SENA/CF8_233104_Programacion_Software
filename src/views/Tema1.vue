@@ -36,7 +36,7 @@
           .col-lg-6
             .BGNumber02.p-2
               .h4.mt-5 Paso 2
-              p.mb-5 Ingresa la contraseña de root usada en el proceso de instalación de MySQL.
+              p.mb-5 Ingresa la contraseña de #[em root] usada en el proceso de instalación de MySQL.
         .row.justify-content-center.align-items-center
           .col-lg-6.order-lg-1.order-2
             .BGNumber03.p-2
@@ -88,7 +88,7 @@
           p.text-AB.mb-0 mysql<span style="color: #4ADBD1">&gt;</span>
         p #[b SELECT] es la sentencia SQL para elegir datos de bases de datos, además se puede utilizar, como en esta situación, para consultar cambiantes del sistema o resultados de funcionalidades. En esta situación se ha consultado el resultado de la función #[b VERSION], se sabe que es una función porque tiene paréntesis” ()”, y de la variable #[b CURRENT_DATE].
         .cajon.color-acento-botones.p-4(data-aos="fade-left")
-          p.mb-0 #[b NOTA]: Toda sentencia debe finalizar con punto y coma (;), luego debe dar enter.
+          p.mb-0 #[b NOTA]: toda sentencia debe finalizar con punto y coma (;), luego debe dar enter.
 
     separador
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")

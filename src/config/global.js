@@ -367,7 +367,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo de Desarrollo Curricular',
+        cargo: 'Responsable equipo de desarrollo curricular',
         centro:
           'Regional Santander - Centro Industrial del Diseño y la Manufactura',
       },
@@ -385,12 +385,12 @@ export default {
       },
       {
         nombre: 'Luz Aída Quintero Velásquez',
-        cargo: 'Diseñadora y evaluadora Instruccional',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro: 'Centro de Gestión Industrial - Distrito Capital',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Evaluadora Instruccional',
+        cargo: 'Evaluadora instruccional',
         centro: 'Centro de Gestión Industrial - Distrito Capital',
       },
       {
@@ -401,7 +401,7 @@ export default {
       },
       {
         nombre: 'Luis Eyder Ortiz',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Regional Santander',
       },
       {
@@ -411,7 +411,7 @@ export default {
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
       {
@@ -446,7 +446,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

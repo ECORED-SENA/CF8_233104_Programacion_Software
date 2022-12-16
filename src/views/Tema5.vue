@@ -98,7 +98,7 @@
       .col-12(data-aos="fade-right")
         img(src="@/assets/curso/tema5/img04.png")
       .col-lg-10.BGR07.img01.p-4(data-aos="fade-left")
-        p.mb-0 Con esta operación, cada fila en la tabla empleados es combinada (o unida) con los correspondientes de la tabla areas que satisface la condición que se especifica en el predicado del JOIN. Cualquier fila de la tabla empleados o de la tabla areas que no tenga uno correspondiente en la otra tabla (areas) es excluido y solo aparecerán los que tengan correspondencia en la otra tabla. Este es el tipo de JOIN más utilizado, por lo que es considerado el tipo de combinación predeterminado.
+        p.mb-0 Con esta operación, cada fila en la tabla #[b empleados] es combinada (o unida) con los correspondientes de la tabla #[b areas] que satisface la condición que se especifica en el predicado del #[b JOIN]. Cualquier fila de la tabla #[b empleados] o de la tabla #[b areas] que no tenga uno correspondiente en la otra tabla (#[b areas]) es excluido y solo aparecerán los que tengan correspondencia en la otra tabla. Este es el tipo de #[b JOIN] más utilizado, por lo que es considerado el tipo de combinación predeterminado.
 
     .row.justify-content-center.mb-4
       .col-lg-5.col-10.mb-4(data-aos="fade-right")
@@ -127,8 +127,8 @@
           figcaption Nota. GermanX (2017)
 
     separador
-    #t_5_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2 5.3 Combinación externa
+    #t_5_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+      h2 5.2 Combinación externa
     
     p Es una variedad de composición de tablas que permite seleccionar algunas filas de una tabla aunque éstas no tengan correspondencia con las filas de la otra tabla con la que se combina.
     .h4 <i class="fas fa-square" style="color: #4ADBD1" data-aos="fade-right"></i> LEFT JOIN
@@ -142,14 +142,14 @@
 
     .row.justify-content-center
       .col-lg-8.p-4.order-lg-1.order-2(data-aos="fade-right")
-        p El resultado de este tipo de consulta contiene todos los registros de la tabla de la izquierda (la primera tabla que se define en el FROM en la consulta), independiente de si existe un registro correspondiente en la tabla de la derecha (la que se define en el JOIN).
+        p El resultado de este tipo de consulta contiene todos los registros de la tabla de la izquierda (la primera tabla que se define en el #[b FROM] en la consulta), independiente de si existe un registro correspondiente en la tabla de la derecha (la que se define en el #[b JOIN]).
         .row.justify-content-center.align-items-center.mb-4
           .col-auto.d-none.d-lg-flex
             img(src="@/assets/curso/temas/img05.png")
           .col
-            p.mb-0 La sentencia LEFT JOIN devuelve la pareja de todos los valores de la tabla izquierda (empleados), con los valores de la tabla de la derecha (áreas) correspondientes, si los hay, o retorna un valor nulo NULL en los campos de la tabla derecha cuando no haya correspondencia.
+            p.mb-0 La sentencia #[b LEFT JOIN] devuelve la pareja de todos los valores de la tabla izquierda (#[b empleados]), con los valores de la tabla de la derecha (áreas) correspondientes, si los hay, o retorna un valor nulo #[b NULL] en los campos de la tabla derecha cuando no haya correspondencia.
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 A diferencia del resultado presentado en el ejemplo INNER JOIN donde no se mostraba el empleado cuya área no existía, en el ejemplo que siguiente se presentarán los empleados con su respectiva área, y adicionalmente se presentará un empleado cuya area no existe.
+          p.mb-0 A diferencia del resultado presentado en el ejemplo #[b INNER JOIN] donde no se mostraba el #[b empleado] cuya área no existía, en el ejemplo que siguiente se presentarán los empleados con su respectiva área, y adicionalmente se presentará un #[b empleado] cuya #[b area] no existe.
         p.mb-0 El empleado que no tiene área se encuentra en la región amarilla del diagrama de la derecha, mientras que los empleados con área están en la franja naranja, en la intersección de empleados y áreas.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img08.svg")
@@ -161,7 +161,7 @@
         img(src="@/assets/curso/tema5/img10.jpg")
         
     .h4 <i class="fas fa-square" style="color: #4ADBD1" data-aos="fade-right"></i> RIGTH JOIN
-    p La sentencia RIGHT JOIN retorna todos los valores de la tabla derecha (áreas) con los valores de la tabla de la izquierda (empleados) correspondientes, si existen, o retorna un valor nulo NULL para los campos de la tabla izquierda cuando no haya correspondencia.
+    p La sentencia #[b RIGHT JOIN] retorna todos los valores de la tabla derecha (#[b áreas]) con los valores de la tabla de la izquierda (#[b empleados]) correspondientes, si existen, o retorna un valor nulo #[b NULL] para los campos de la tabla izquierda cuando no haya correspondencia.
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.BG01.p-4

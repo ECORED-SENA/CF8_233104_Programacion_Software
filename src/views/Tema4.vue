@@ -36,7 +36,7 @@
 
     p Se listarán las que se usarán en adelante para el ejemplo que sigue:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in")
         .tabla-a.color-secundario
           table
@@ -46,43 +46,43 @@
                 th(style="background-color: #5573C6; width: 70%").text-center.text-white Descripción
             tbody
               tr
-                th(style="background-color: #F6F6F6;") LENGTH
+                th(style="background-color: #F6F6F6;") #[em LENGTH]
                 td(style="background-color: #F6F6F6;") Devuelve la longitud de una cadena (en bytes).
               tr
-                th(style="background-color: #FFF;") SUM
+                th(style="background-color: #FFF;") #[em SUM]
                 td(style="background-color: #FFF;") Calcula la suma de un conjunto de valores.
               tr
-                th(style="background-color: #F6F6F6;") MAX
+                th(style="background-color: #F6F6F6;") #[em MAX]
                 td(style="background-color: #F6F6F6;") Devuelve el valor máximo en un conjunto de valores.
               tr
-                th(style="background-color: #FFF;") MIN
+                th(style="background-color: #FFF;") #[em MIN]
                 td(style="background-color: #FFF;") Devuelve el valor mínimo en un conjunto de valores.
               tr
-                th(style="background-color: #F6F6F6;") CEIL
+                th(style="background-color: #F6F6F6;") #[em CEIL]
                 td(style="background-color: #F6F6F6;") Redondea el valor entero más pequeño que es mayor o igual que un número.
               tr
-                th(style="background-color: #FFF;") COUNT
+                th(style="background-color: #FFF;") #[em COUNT]
                 td(style="background-color: #FFF;") Devuelve el número de registros devueltos por una consulta de selección.
               tr
-                th(style="background-color: #F6F6F6;") AVG
+                th(style="background-color: #F6F6F6;") #[em AVG]
                 td(style="background-color: #F6F6F6;") Devuelve el valor medio de una expresión.
               tr
-                th(style="background-color: #FFF;") YEAR
+                th(style="background-color: #FFF;") #[em YEAR]
                 td(style="background-color: #FFF;") Devuelve la parte del año para una fecha determinada.
               tr
-                th(style="background-color: #F6F6F6;") MONTH
+                th(style="background-color: #F6F6F6;") #[em MONTH]
                 td(style="background-color: #F6F6F6;") Devuelve la parte del mes para una fecha determinada.
               tr
-                th(style="background-color: #FFF;") DAY
+                th(style="background-color: #FFF;") #[em DAY]
                 td(style="background-color: #FFF;") Devuelve el día del mes para una fecha determinada.
               tr
-                th(style="background-color: #F6F6F6;") DATE
+                th(style="background-color: #F6F6F6;") #[em DATE]
                 td(style="background-color: #F6F6F6;") Extrae la parte de la fecha de una expresión de fecha y hora.
               tr
-                th(style="background-color: #FFF;") TIME
+                th(style="background-color: #FFF;") #[em TIME]
                 td(style="background-color: #FFF;") Extrae la parte de tiempo de una hora / fecha y hora determinadas.
               tr
-                th(style="background-color: #F6F6F6;") SEC_TO_TIME
+                th(style="background-color: #F6F6F6;") #[em SEC_TO_TIME]
                 td(style="background-color: #F6F6F6;") Devuelve un valor de tiempo basado en los segundos especificados.
 
     p Para este ejemplo se usará una base de datos de llamadas telefónicas, esta base de datos tiene la estructura que se verá a continuación y con ella se aprenderá a hacer consultas.
@@ -130,11 +130,11 @@
           table
             thead
               tr
-                th(style="background-color: #5573C6;" colspan="6").text-center.text-white FUNCION
+                th(style="background-color: #5573C6;" colspan="6").text-center.text-white Diccionario de datos
             tbody
               tr
                 th(style="background-color: #F6F6F6;" colspan="2") Tabla
-                td(style="background-color: #F6F6F6;" colspan="4") CDR (Call Data Records).
+                td(style="background-color: #F6F6F6;" colspan="4") CDR (#[em Call Data Records]).
               tr
                 th(style="background-color: #FFF;" colspan="2") Fecha
                 td(style="background-color: #FFF;" colspan="4") DD/MM/YYY.
@@ -152,22 +152,22 @@
             tbody
               tr
                 th(style="background-color: #F6F6F6;") Registro
-                td(style="background-color: #F6F6F6;") DATETIME
+                td(style="background-color: #F6F6F6;") #[em DATETIME]
                 td(style="background-color: #F6F6F6;") 0
                 td(style="background-color: #F6F6F6;") Fecha y hora de registro de la llamada.
               tr
                 th(style="background-color: #FFF;") Origen
-                td(style="background-color: #FFF;") VARCHAR
+                td(style="background-color: #FFF;") #[em VARCHAR]
                 td(style="background-color: #FFF;") 80
                 td(style="background-color: #FFF;") Número de teléfono o extensión del llamante.
               tr
                 th(style="background-color: #F6F6F6;") Destino
-                td(style="background-color: #F6F6F6;") VARCHAR
+                td(style="background-color: #F6F6F6;") #[em VARCHAR]
                 td(style="background-color: #F6F6F6;") 80
                 td(style="background-color: #F6F6F6;") Número de teléfono o extensión del llamado o destino.
               tr
                 th(style="background-color: #FFF;") Estado
-                td(style="background-color: #FFF;") VARCHAR
+                td(style="background-color: #FFF;") #[em VARCHAR]
                 td(style="background-color: #FFF;") 30
                 td(style="background-color: #FFF;") ANSWERED, BUSY, FAILED, NO ANSWER, que representa lo que sucede finalmente con la llamada.
               tr
