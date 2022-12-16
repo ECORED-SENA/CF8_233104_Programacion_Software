@@ -118,7 +118,7 @@
               h4.text-white.mb-2 Crear la base de datos cdr 
               p.text-white Estimado aprendiz a continuación descargar el siguiente documento para su consulta.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/cdr.zip')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     

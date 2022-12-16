@@ -541,7 +541,7 @@
               h4.text-white.mb-2 Ejercicios prácticos  
               p.text-white Se propone que se revise y estudie dos ejercicios de repaso, que están en el documento adjunto “Ejercicios Prácticos”, en ellos están completamente desarrollados dos ejercicios un poco más extensos, pero que recogen la temática hasta ahora vista, con la diferencia que los ejercicios propuestos son más próximos a problemas de la vida real. 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejercicios_Practicos.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
