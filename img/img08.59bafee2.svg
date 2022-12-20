@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="586" height="163" viewBox="0 0 586 163">
+  <g id="Grupo_986588" data-name="Grupo 986588" transform="translate(-424 -8346)">
+    <g id="Grupo_986583" data-name="Grupo 986583">
+      <text id="_---------------------_----------_------_-----_---------_-------_Field_Type_Null_Key_Default_Extra_---------------------_----------_------_-----_---------_-------_tipo_documento_char_2_NO_PRI_NULL_" data-name="+---------------------+----------+------+-----+---------+-------+
+| Field               | Type     | Null | Key | Default | Extra |
++---------------------+----------+------+-----+---------+-------+
+| tipo_documento      | char(2)  | NO   | PRI | NULL    | " transform="translate(424 8346)" fill="#f4a338" font-size="16" font-family="Consolas"><tspan x="0" y="15">+---------------------+----------+------+-----+---------+-------+</tspan><tspan x="0" y="39" xml:space="preserve">| Field               | Type     | Null | Key | Default | Extra |</tspan><tspan x="0" y="63">+---------------------+----------+------+-----+---------+-------+</tspan><tspan x="0" y="87" xml:space="preserve">| tipo_documento      | char(2)  | NO   | PRI | NULL    |       |</tspan><tspan x="0" y="111" xml:space="preserve">| documento_identidad | char(10) | NO   | PRI | NULL    |       |</tspan><tspan x="0" y="135" xml:space="preserve">| nombres             | char(30) | YES  |     | NULL    |       |</tspan><tspan x="0" y="159">+---------------------+----------+------+-----+---------+-------+</tspan></text>
+    </g>
+  </g>
+</svg>
