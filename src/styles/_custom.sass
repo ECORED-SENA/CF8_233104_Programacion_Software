@@ -25,8 +25,13 @@
 .BGIMG03
   background-image: url("../assets/curso/fondos/img03.png")
 
-.BGIMG01, .BGIMG02, .BGIMG03, .BGNumber01, .BGNumber02, .BGNumber03
+.BGIMG01, .BGIMG02, .BGIMG03
   background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGNumber01, .BGNumber02, .BGNumber03
+  background-size: 100% 100% 
   background-repeat: no-repeat
   background-position: center
 
@@ -181,12 +186,12 @@
 .bloque-inv .bloque-texto-g__img
   left: 50%
   @media (max-width: $bp-max-md)
-    left: initial
+    left: 0
   
 .bloque-inv .bloque-texto-g__texto
   left: -40%
   @media (max-width: $bp-max-md)
-    width: initial
+    left: initial
   
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #EFD198

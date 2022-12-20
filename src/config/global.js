@@ -375,13 +375,13 @@ export default {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Instructor',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Peter Emerson Pinchao Solis',
         cargo: 'Instructor',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Luz Aída Quintero Velásquez',
@@ -430,12 +430,6 @@ export default {
       {
         nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

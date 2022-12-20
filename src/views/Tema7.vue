@@ -21,8 +21,8 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-lg-0.mb-4
             .BGNumber01.p-2
-              .h4.ms-3 Nube pública
-              p.ms-3.mb-0 Tipología de nube que ofrece servicios de forma pública a través de internet. El proveedor es dueño de su infraestructura y gestiona y ofrece los servicios, como por ejemplo Amazon, Microsoft y Google.
+              .h4.ms-lg-3.ms-5.mt-lg-0.mt-5 Nube pública
+              p.ms-lg-3.ms-5.mb-lg-0.mb-5 Tipología de nube que ofrece servicios de forma pública a través de internet. El proveedor es dueño de su infraestructura y gestiona y ofrece los servicios, como por ejemplo Amazon, Microsoft y Google.
           .col-lg-4.col-10
             img(src="@/assets/curso/tema7/img02.png")
         .row.justify-content-center.align-items-center
@@ -30,13 +30,13 @@
             img(src="@/assets/curso/tema7/img03.png")
           .col-lg-6
             .BGNumber02.p-2
-              .h4.mt-4.ms-3 Nube privada
-              p.ms-3 En esta nube se ofrecen los servicios de nube privada, orientados exclusivamente a una empresa u organización a sus trabajadores.
+              .h4.ms-lg-3.ms-5.mt-lg-0.mt-5 Nube privada
+              p.ms-lg-3.ms-5.mb-lg-0.mb-5 En esta nube se ofrecen los servicios de nube privada, orientados exclusivamente a una empresa u organización a sus trabajadores.
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-lg-0.mb-4
             .BGNumber03.p-2
-              .h4.ms-3 Nube híbrida
-              p.ms-3.mb-0 Esta tipología hace referencia a los servicios en la nube mixtos, combinando nubes privadas, públicas y demás. Todas actúan como una sola entidad sirviendo a las necesidades que se encomiendan para cada caso.
+              .h4.ms-lg-3.ms-5.mt-lg-0.mt-5 Nube híbrida
+              p.ms-lg-3.ms-5.mb-lg-0.mb-5 Esta tipología hace referencia a los servicios en la nube mixtos, combinando nubes privadas, públicas y demás. Todas actúan como una sola entidad sirviendo a las necesidades que se encomiendan para cada caso.
           .col-lg-4.col-10
             img(src="@/assets/curso/tema7/img04.png")
     

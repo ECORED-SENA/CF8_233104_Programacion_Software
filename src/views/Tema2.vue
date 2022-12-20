@@ -78,7 +78,7 @@
           .col-auto.d-none.d-lg-flex
             img(src="@/assets/curso/temas/img05.png")
           .col
-            p.mb-0 En su forma más sencilla, #[b CREATE TABLE] hará una tabla con todas las columnas que le sean indicadas. A continuación un ejemplo, una tabla que admitirá almacenar el nombre de varias personas y las fechas de nacimiento de cada una. Se debe de indicar el nombre de la tabla, y los nombres de las columnas y tipos el tipo de datos de cada una de ella:
+            p.mb-0 En su forma más sencilla, #[b CREATE TABLE] hará una tabla con todas las columnas que le sean indicadas. A continuación un ejemplo, una tabla que admitirá almacenar el nombre de varias personas y las fechas de nacimiento de cada una. Se debe de indicar el nombre de la tabla, y los nombres de las columnas y tipos, el tipo de datos de cada una de ella:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img02.svg")
 
@@ -346,7 +346,7 @@
             .col-auto.d-none.d-lg-flex
               img(src="@/assets/curso/temas/img05.png")
             .col
-              p.mb-0 La expresión DELETE CASCADE , hace que, si se borra una fila de la tabla persona que tiene relacionados registros telefónicos a través de la columna persona_id en la tabla telefonos, estos registros (localizados en la tabla telefonos) se borren si se borra el de la tabla persona, a este tipo de condiciones se le llama restricción de integridad referencial.
+              p.mb-0 La expresión DELETE CASCADE, hace que, si se borra una fila de la tabla persona que tiene relacionados registros telefónicos a través de la columna persona_id en la tabla telefonos, estos registros (localizados en la tabla telefonos) se borren si se borra el de la tabla persona, a este tipo de condiciones se le llama restricción de integridad referencial.
           .cajon.color-acento-botones.p-4(data-aos="fade-left")
             p.mb-0 De igual forma UPDATE CASCADE, hace que, si el id_persona en una fila de la tabla persona es actualizado a otro valor y existen referencias en la columna persona_id de la tabla telefonos con el valor inicial, al cambar el valor en el registro id_persona, cambien también el valor en los registros en la columna persona_id de la tabla telefonos. A este tipo de condiciones también se le llama restricción de integridad referencial. Y ejecutándola en la consola el resultado sería: 
 

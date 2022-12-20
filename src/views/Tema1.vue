@@ -86,7 +86,7 @@
           p.text-AB.mb-0 +———————+—————————+
           p.text-AB.mb-0 1 row in set (0.02 sec)
           p.text-AB.mb-0 mysql<span style="color: #4ADBD1">&gt;</span>
-        p #[b SELECT] es la sentencia SQL para elegir datos de bases de datos, además se puede utilizar, como en esta situación, para consultar cambiantes del sistema o resultados de funcionalidades. En esta situación se ha consultado el resultado de la función #[b VERSION], se sabe que es una función porque tiene paréntesis” ()”, y de la variable #[b CURRENT_DATE].
+        p #[b SELECT] es la sentencia SQL para elegir datos de bases de datos, además se puede utilizar, como en esta situación, para consultar cambiantes del sistema o resultados de funcionalidades. En esta situación se ha consultado el resultado de la función #[b VERSION], se sabe que es una función porque tiene paréntesis "()", y de la variable #[b CURRENT_DATE].
         .cajon.color-acento-botones.p-4(data-aos="fade-left")
           p.mb-0 #[b NOTA]: toda sentencia debe finalizar con punto y coma (;), luego debe dar enter.
 

@@ -149,7 +149,7 @@
           .col
             p.mb-0 La sentencia #[b LEFT JOIN] devuelve la pareja de todos los valores de la tabla izquierda (#[b empleados]), con los valores de la tabla de la derecha (áreas) correspondientes, si los hay, o retorna un valor nulo #[b NULL] en los campos de la tabla derecha cuando no haya correspondencia.
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0 A diferencia del resultado presentado en el ejemplo #[b INNER JOIN] donde no se mostraba el #[b empleado] cuya área no existía, en el ejemplo que siguiente se presentarán los empleados con su respectiva área, y adicionalmente se presentará un #[b empleado] cuya #[b area] no existe.
+          p.mb-0 A diferencia del resultado presentado en el ejemplo #[b INNER JOIN] donde no se mostraba el #[b empleado] cuya área no existía, en el ejemplo que siguiente se presentarán los empleados con su respectiva área, y adicionalmente se presentará un #[b empleado] cuya #[b área] no existe.
         p.mb-0 El empleado que no tiene área se encuentra en la región amarilla del diagrama de la derecha, mientras que los empleados con área están en la franja naranja, en la intersección de empleados y áreas.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img08.svg")

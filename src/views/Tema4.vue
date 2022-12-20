@@ -607,7 +607,7 @@
         .BG01.p-4
           p.text-AC.mb-0 SELECT <span style="color: #F4A338">MONTH(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> AS <span style="color: #fff">mes</span>, <span style="color: #F4A338">COUNT(*)</span> AS <span style="color: #fff">cantidad</span>
           p.text-AC.mb-0 FROM <span style="color: #fff">cdr</span> 
-          p.text-AC.mb-0 WHERE <span style="color: #F4A338">LENGTH(</span><span style="color: #fff">origen</span><span style="color: #F4A338">)</span> > <span style="color: #D15B98">3</span> AND <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> = <span style="color: #D15B98">2017</span>
+          p.text-AC.mb-0 WHERE <span style="color: #F4A338">LENGTH(</span><span style="color: #fff">origen</span><span style="color: #F4A338">)</span> &gt; <span style="color: #D15B98">3</span> AND <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> = <span style="color: #D15B98">2017</span>
           p.text-AC.mb-0 GROUP BY <span style="color: #fff">mes</span>  
       .col-lg-5.col-10(data-aos="fade-left")
         img(src='@/assets/curso/tema4/img26.jpg')
@@ -616,9 +616,9 @@
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8.BG01.p-4
-        p.text-AC.mb-0 SELECT <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span> AS <span style="color: #fff">año</span>,<span style="color: #F4A338">MONTH(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> AS <span style="color: #fff">mes</span>, <span style="color: #F4A338">COUNT(*)</span> AS <span style="color: #fff">cantidad</span>
+        p.text-AC.mb-0 SELECT <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span> AS <span style="color: #fff">año</span>, <span style="color: #F4A338">MONTH(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> AS <span style="color: #fff">mes</span>, <span style="color: #F4A338">COUNT(*)</span> AS <span style="color: #fff">cantidad</span>
         p.text-AC.mb-0 FROM <span style="color: #fff">cdr</span> 
-        p.text-AC.mb-0 WHERE <span style="color: #F4A338">LENGTH(</span><span style="color: #fff">origen</span><span style="color: #F4A338">)</span> > <span style="color: #D15B98">3</span> AND <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> IN <span style="color: #F4A338">(</span><span style="color: #D15B98">2017</span>,<span style="color: #D15B98">2018</span>,<span style="color: #D15B98">2019</span><span style="color: #F4A338">)</span>
+        p.text-AC.mb-0 WHERE <span style="color: #F4A338">LENGTH(</span><span style="color: #fff">origen</span><span style="color: #F4A338">)</span> &gt; <span style="color: #D15B98">3</span> AND <span style="color: #F4A338">YEAR(</span><span style="color: #fff">registro</span><span style="color: #F4A338">)</span> IN <span style="color: #F4A338">(</span><span style="color: #D15B98">2017</span>, <span style="color: #D15B98">2018</span>, <span style="color: #D15B98">2019</span><span style="color: #F4A338">)</span>
         p.text-AC.mb-0 GROUP BY <span style="color: #fff">año</span>, <span style="color: #fff">mes</span> 
         p.text-AC.mb-0 ORDER BY <span style="color: #fff">año</span>, <span style="color: #fff">mes</span> 
 

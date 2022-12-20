@@ -19,17 +19,17 @@
             .col
               p.mb-0 Dichos procedimientos se asimilan a las construcciones de otros lenguajes de programación por los siguientes puntos:
           .row.justify-content-center.mb-4
-            .col-4(data-aos="flip-up")
+            .col-md-4.col-8.mb-md-0.mb-4(data-aos="flip-up")
               .BGR10S.hg03.p-3
                 figure.mb-3
                   img(src="@/assets/curso/tema6/img02.png")
                 p.text-center.mb-0 Acepta parámetros de entrada y devuelve varios valores como parámetros de salida al programa que hace la llamada.
-            .col-4(data-aos="flip-up")
+            .col-md-4.col-8.mb-md-0.mb-4(data-aos="flip-up")
               .BGR10S.hg03.p-3
                 figure.mb-3
                   img(src="@/assets/curso/tema6/img03.png")
                 p.text-center.mb-0 Contiene las instrucciones de la programación que realiza las sistematizaciones en la base de datos.
-            .col-4(data-aos="flip-up")
+            .col-md-4.col-8.mb-md-0.mb-4(data-aos="flip-up")
               .BGR10S.hg03.p-3
                 figure.mb-3
                   img(src="@/assets/curso/tema6/img04.png")
@@ -101,46 +101,47 @@
             | En el cuadro de diálogo especificar los siguientes parámetros:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
-      .col-lg-6
-        table
-          thead
-            tr
-              th(style="background-color: #5573C6; width: 40%")
-              th(style="background-color: #5573C6; width: 60%")
-          tbody
-            tr
-              td(style="background-color: #E8E8E8;") Parámetro
-              td(style="background-color: #E8E8E8;") Value
-            tr
-              td(style="background-color: #FFF;") Autor
-              td(style="background-color: #FFF;") Su nombre
-            tr
-              td(style="background-color: #E8E8E8;") Create Date
-              td(style="background-color: #E8E8E8;") La fecha de hoy
-            tr
-              td(style="background-color: #FFF;") Descripción
-              td(style="background-color: #FFF;") Devuelve datos de empleado
+      .col-xl-6.col-lg-8
+        .tabla-a.color-acento-botones
+          table
+            thead(style="border-color: transparent")
               tr
-              td(style="background-color: #E8E8E8;") Procedure_name
-              td(style="background-color: #E8E8E8;") HumanResources.uspGetEmployeesTest
-            tr
-              td(style="background-color: #FFF;") @Param1
-              td(style="background-color: #FFF;") @LastName
-            tr
-              td(style="background-color: #E8E8E8;") @Datatype_For_Param1
-              td(style="background-color: #E8E8E8;") Nvarchar(50)
-            tr
-              td(style="background-color: #FFF;") Default_Value_For_Param1
-              td(style="background-color: #FFF;") NULL
-            tr
-              td(style="background-color: #E8E8E8;") @Param2
-              td(style="background-color: #E8E8E8;") @FirstName
-            tr
-              td(style="background-color: #FFF;") @Datatype_For_Param2
-              td(style="background-color: #FFF;") nvarchar(50)
-            tr
-              td(style="background-color: #E8E8E8;") Default_Value_For_Param2
-              td(style="background-color: #E8E8E8;") NULL
+                th(style="background-color: #5573C6; width: 40%")
+                th(style="background-color: #5573C6; width: 60%")
+            tbody
+              tr
+                td(style="background-color: #E8E8E8;") Parámetro
+                td(style="background-color: #E8E8E8;") Value
+              tr
+                td(style="background-color: #FFF;") Autor
+                td(style="background-color: #FFF;") Su nombre
+              tr
+                td(style="background-color: #E8E8E8;") Create Date
+                td(style="background-color: #E8E8E8;") La fecha de hoy
+              tr
+                td(style="background-color: #FFF;") Descripción
+                td(style="background-color: #FFF;") Devuelve datos de empleado
+                tr
+                td(style="background-color: #E8E8E8;") Procedure_name
+                td(style="background-color: #E8E8E8;") HumanResources.uspGetEmployeesTest
+              tr
+                td(style="background-color: #FFF;") @Param1
+                td(style="background-color: #FFF;") @LastName
+              tr
+                td(style="background-color: #E8E8E8;") @Datatype_For_Param1
+                td(style="background-color: #E8E8E8;") Nvarchar(50)
+              tr
+                td(style="background-color: #FFF;") Default_Value_For_Param1
+                td(style="background-color: #FFF;") NULL
+              tr
+                td(style="background-color: #E8E8E8;") @Param2
+                td(style="background-color: #E8E8E8;") @FirstName
+              tr
+                td(style="background-color: #FFF;") @Datatype_For_Param2
+                td(style="background-color: #FFF;") nvarchar(50)
+              tr
+                td(style="background-color: #E8E8E8;") Default_Value_For_Param2
+                td(style="background-color: #E8E8E8;") NULL
     
     .row.justify-content-center
       .col-lg-8.p-4.order-lg-1.order-2(data-aos="fade-right")
