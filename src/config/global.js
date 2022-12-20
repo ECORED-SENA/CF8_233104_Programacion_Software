@@ -402,12 +402,14 @@ export default {
       {
         nombre: 'Luis Eyder Ortiz',
         cargo: 'Experto temático',
-        centro: 'Regional Santander',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regianal Cauca',
       },
       {
         nombre: 'Javier Ricardo Luna Pineda',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro De La Industria, La Empresa Y Los Servicios',
+        centro:
+          'Centro De La Industria, La Empresa Y Los Servicios - Regional Huila',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',

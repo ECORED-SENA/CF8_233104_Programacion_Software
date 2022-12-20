@@ -8,8 +8,11 @@
       h1 Consulta multitablas - DML
     
     .bloque-texto-g.color-acento-contenido.bloque-inv.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
+      .bloque-texto-g__img.d-none.d-lg-flex(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img01.png')})`}"
+      )(data-aos="fade-right")
+      .bloque-texto-g__img.d-lg-none.d-flex(
+        :style="{'background-image': `url(${require('@/assets/curso/tema5/img13.png')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Para explicar este tipo de ejercicios, crearemos una base de datos de empleados llamada ehr, y las tablas empleados y áreas, se relacionan si: un empleado pertenece a un área y un área puede tener varios empleados como se muestra en el siguiente diagrama:
